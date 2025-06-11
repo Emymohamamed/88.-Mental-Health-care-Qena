@@ -1,0 +1,165 @@
+/* ===== Footer Layout ===== */
+footer {
+  background: linear-gradient(to right, #b7dff0, #d3c8e6, #7f5c95);
+  padding: 60px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Footer Logo ===== */
+footer img.footerlogo {
+  height: 200px !important;
+  width: auto !important; /* ليكون العرض متناسب مع الطول */
+  margin: 20px 0;
+  display: block;
+}
+
+/* ===== Section Titles ===== */
+footer h6.site-footer-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+footer h6.site-footer-title::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #fff;
+  margin-top: 8px;
+}
+
+/* ===== Links List ===== */
+footer ul.site-footer-links {
+  padding-left: 0;
+  margin: 0;
+}
+
+footer ul.site-footer-links li {
+  list-style: none;
+  margin: 10px 0;
+  color: #f1f1f1;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  cursor: default;
+}
+
+footer ul.site-footer-links li:hover {
+  color: #4e2c6c;
+}
+
+/* ===== If you still use links (optional) ===== */
+footer ul.site-footer-links li a {
+  color: #f1f1f1;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer ul.site-footer-links li a:hover {
+  color: #4e2c6c;
+  text-decoration: underline;
+}
+
+/* ===== Footer Contact Info ===== */
+footer .footer-contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+footer .footer-contact .footer-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #4e2c6c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  font-size: 18px;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+footer .footer-contact .footer-icon:hover {
+  background-color: #2e1b44;
+}
+
+footer .footer-contact-text h6 {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0;
+}
+
+footer .footer-contact-text h4 {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+/* ===== Social Media Icons ===== */
+footer ul.social {
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+footer ul.social li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+footer ul.social li a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  color: #4e2c6c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+footer ul.social li a:hover {
+  background: #4e2c6c;
+  color: #fff;
+}
+/* ===== Phone Link Styling ===== */
+footer a.site-footer-link {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a.site-footer-link:hover {
+  color: #4e2c6c;
+  text-decoration: underline;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  footer .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .footer-contact {
+    justify-content: center;
+    text-align: left;
+  }
+
+  footer .footer-contact .footer-icon {
+    margin-right: 10px;
+  }
+
+  footer ul.social {
+    justify-content: center;
+  }
+}

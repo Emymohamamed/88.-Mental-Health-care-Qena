@@ -1,0 +1,297 @@
+/* Posts Page */
+.posts-page {
+  background-color: #f4f7fb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.posts-page .section-padding {
+  padding: 50px 0;
+  flex: 1;
+}
+
+.posts-page .sidebar {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.posts-page .sidebar h3 {
+  font-size: 24px;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+}
+
+.posts-page .book-item {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.posts-page .book-image {
+  width: 100%;
+  max-width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.posts-page .book-title {
+  font-size: 18px;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+}
+
+.posts-page .book-description {
+  font-size: 14px;
+  color: var(--text-gray);
+  margin-bottom: 15px;
+}
+
+.posts-page .post-book-button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  width: 100%;
+  max-width: 150px;
+}
+
+.posts-page .post-book-button:hover {
+  background-color: #cbeefd;
+}
+
+.posts-page .container-post {
+  padding: 0 20px;
+}
+
+.posts-page .post-submission {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.posts-page .post-submission h2 {
+  font-size: 24px;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+}
+
+.posts-page .post-submission input,
+.posts-page .post-submission textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.posts-page .file-upload {
+  margin-bottom: 10px;
+}
+
+.posts-page .file-upload label {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.posts-page .uploaded-image {
+  max-width: 200px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.posts-page .post-submission button {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.posts-page .post-submission button:hover {
+  background-color: #cbeefd;
+}
+
+.posts-page .post {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.posts-page .post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: -120px;
+}
+
+.posts-page .doctor-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+margin-left:120px;
+}
+
+.posts-page .doctor-name {
+  font-size: 16px;
+  color: var(--text-dark);
+  margin-left: 10px;
+}
+
+.posts-page .post-time {
+  font-size: 14px;
+  color: var(--text-gray);
+}
+
+.posts-page .post h2 {
+  font-size: 30px;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.posts-page .post p {
+  font-size: 20px;
+  color: var(--text-gray);
+  margin-bottom: 10px;
+}
+
+.posts-page .post-image-only {
+  max-width: 100%;
+  text-align: center;
+  margin-left: 90px;
+  width: 600px;
+  height: 400px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.posts-page .reactions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.posts-page .reaction-button {
+  background-color: var(--background-light);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.posts-page .reaction-button:hover {
+  background-color: #e0e0e0;
+}
+
+.posts-page .reaction-count {
+  font-size: 18px;
+  color: var(--text-gray);
+  margin-left: 10px;
+}
+
+.posts-page .comment-section {
+  margin-top: 10px;
+}
+
+.posts-page .identity-selection {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.posts-page .comment-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.posts-page .post-comment-button {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 8px 16px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.posts-page .post-comment-button:hover {
+  background-color: #cbeefd;
+}
+
+.posts-page .comments-list {
+  margin-top: 10px;
+}
+
+.posts-page .comment {
+  font-size: 18px;
+  color: var(--text-gray);
+  margin-bottom: 10px;
+}
+
+.posts-page .comment strong {
+  color: var(--text-dark);
+}
+
+.posts-page .comment-time {
+  font-size: 12px;
+  color: #999;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .posts-page .section-padding {
+    padding: 30px 0;
+  }
+
+  .posts-page .sidebar {
+    margin-bottom: 20px;
+  }
+
+  .posts-page .container-post {
+    padding: 0 10px;
+  }
+
+  .posts-page .post-submission h2,
+  .posts-page .post h2 {
+    font-size: 20px;
+  }
+
+  .posts-page .book-item {
+    margin-bottom: 20px;
+  }
+
+  .posts-page .book-image {
+    max-width: 120px;
+    height: 160px;
+  }
+
+  .posts-page .post-book-button {
+    max-width: 120px;
+  }
+
+  .posts-page .doctor-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .posts-page .post-image-only {
+    width: 100%;
+    height: auto;
+  }
+}

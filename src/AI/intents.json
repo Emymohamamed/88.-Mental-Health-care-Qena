@@ -1,0 +1,418 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hello",
+        "How are you",
+        "Hi",
+        "Good morning",
+        "Greetings",
+        "What's up?",
+        "How's it going?",
+        "Hey there",
+        "Peace be upon you",
+        "What's new?"
+      ],
+      "responses": [
+        "Hey! How can I help you today?",
+        "Hi! What's on your mind?",
+        "Hello! Glad to see you, what do you want to talk about?",
+        "Peace! What's up with you today?"
+      ]
+    },
+    {
+      "tag": "feelingAnxious",
+      "patterns": [
+        "I feel anxious",
+        "I'm really stressed",
+        "I'm feeling scared",
+        "I'm under a lot of pressure",
+        "I'm so nervous",
+        "I feel overwhelmed",
+        "I can't calm down",
+        "My heart is racing",
+        "I'm scared for no reason",
+        "I can't control my thoughts"
+      ],
+      "responses": [
+        "I'm so sorry you're feeling this way. It’s important to take some time to rest and try relaxation techniques like deep breathing. Want some tips on that?",
+        "It sounds like things are overwhelming right now. Take a deep breath, and let’s work through this together. Want some advice or support?",
+        "Anxiety can be tough, but there are ways to calm down. Try the 4-7-8 breathing technique: inhale for 4 seconds, hold for 7, exhale for 8. Want to try it together?",
+        "Sometimes anxiety comes from racing thoughts. Want to talk about what’s making you anxious so we can find a solution?"
+      ]
+    },
+    {
+      "tag": "feelingSad",
+      "patterns": [
+        "I feel sad",
+        "I'm upset",
+        "I'm depressed",
+        "I feel hopeless",
+        "I'm not happy",
+        "My life feels meaningless",
+        "I can't find anything to be happy about",
+        "I feel empty inside",
+        "Everything around me feels gray"
+      ],
+      "responses": [
+        "I'm really sorry you're feeling this way. Sadness is a normal part of life sometimes. Want to share what’s on your mind?",
+        "It sounds like you're not in a great place. Want to tell me more about how you’re feeling?",
+        "Sadness can feel heavy, but you’re not alone. Want to try writing down 3 small things you’re grateful for today?",
+        "Maybe try going for a walk or listening to music you love. Want me to suggest some ways to lift your mood?"
+      ]
+    },
+    {
+      "tag": "selfCareTips",
+      "patterns": [
+        "What are some self-care tips?",
+        "How can I take care of myself?",
+        "What can I do to feel better?",
+        "What should I try if I'm stressed?",
+        "How can I live a better life?",
+        "What helps me be happier?",
+        "I need ideas to feel better mentally"
+      ],
+      "responses": [
+        "Self-care is super important for your mental health. Try going for a walk, focusing on your breathing, or journaling your thoughts. Want more details?",
+        "Here are some ideas: take a break, try a bit of meditation, or spend time with someone you care about. Want to explore more?",
+        "Try something simple you enjoy, like reading a book, listening to a fun podcast, or sipping tea in a quiet spot. Sound good?",
+        "Self-care can be as simple as drinking enough water or getting good sleep. Want me to suggest a daily routine to help?"
+      ]
+    },
+    {
+      "tag": "therapyAndSupport",
+      "patterns": [
+        "Should I see a therapist?",
+        "How can therapy help me?",
+        "Do I need professional help?",
+        "What kinds of mental health support are available?",
+        "How do I find a therapist?",
+        "Is therapy expensive?",
+        "I need someone to talk to"
+      ],
+      "responses": [
+        "Talking to a therapist can help you manage your feelings and give you strategies for tough situations. Want help finding resources?",
+        "Seeking mental health support is a great step to feel better. Want me to guide you toward some therapy options near you?",
+        "Therapy, like cognitive behavioral therapy (CBT), can help you understand your thoughts and change how you handle challenges. Want to learn more about therapy types?",
+        "There are lots of options like therapy, support groups, or mental health apps. Want me to suggest specific resources?"
+      ]
+    },
+    {
+      "tag": "copingMechanisms",
+      "patterns": [
+        "What are strategies for dealing with stress?",
+        "How can I handle anxiety?",
+        "How do I cope with depression?",
+        "How do I manage stress?",
+        "I need ways to calm down",
+        "How can I control my emotions?",
+        "How do I find balance in my life?"
+      ],
+      "responses": [
+        "Coping strategies vary for everyone. You could try deep breathing, meditation, or talking to someone close. Want to discuss specific strategies?",
+        "Here are some techniques: try journaling, doing physical activity, or meditating. Which one feels like it could help you?",
+        "If you’re feeling stressed, try breaking big tasks into smaller ones or setting aside time for yourself. Want more ideas?",
+        "Practicing gratitude, like writing 3 good things that happened today, can shift your mood. Want to give it a try?"
+      ]
+    },
+    {
+      "tag": "sleepProblems",
+      "patterns": [
+        "I can’t sleep",
+        "I have trouble sleeping",
+        "I can’t sleep well",
+        "I feel restless at night",
+        "I’m tired all the time",
+        "I keep waking up at night",
+        "I don’t feel rested when I sleep",
+        "I stay up until dawn"
+      ],
+      "responses": [
+        "Good sleep is so important for your mental health. Try setting a regular sleep schedule, avoiding screens before bed, or doing light exercise. Want more tips?",
+        "Sleep problems can be tough. Some find relief with relaxation exercises or cutting back on caffeine. Want me to share ideas to improve your sleep?",
+        "Try listening to calming music or reading before bed. Also, avoid caffeine in the afternoon. Need more suggestions?",
+        "If you’re waking up a lot, try breathing exercises or writing down your thoughts before bed to clear your mind. Want more details?"
+      ]
+    },
+    {
+      "tag": "suicidalThoughts",
+      "patterns": [
+        "I’m thinking about suicide",
+        "I feel like life has no meaning",
+        "There’s no hope in my life",
+        "I can’t keep going",
+        "I want to end everything",
+        "I feel like I want to disappear",
+        "I don’t see a reason to keep going"
+      ],
+      "responses": [
+        "I’m so sorry you’re feeling this way, but I’m not equipped to give you the support you need. Please reach out to a mental health professional or a hotline. You’re not alone.",
+        "It sounds like you’re going through a really tough time. It’s important to talk to someone who can help. Want me to help you find someone to talk to?",
+        "These feelings are heavy, but there are people who can help. Please contact a therapist or a support hotline. I can share links to resources if you’d like.",
+        "You are important, and your life has value. If you feel like you can’t go on, talk to someone close or a professional. I’m here if you want to start sharing."
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": [
+        "Thank you",
+        "Thanks for the help",
+        "I’m grateful",
+        "You’re helping me a lot",
+        "Thanks for listening",
+        "Really, thank you",
+        "I appreciate your time",
+        "Thanks for the advice"
+      ],
+      "responses": [
+        "You’re so welcome! I’m here whenever you need help.",
+        "Glad I could help! Remember, you’re not alone in this. I’m here if you need more.",
+        "No problem! If you want to talk again, I’m right here.",
+        "Happy to help even a little. Take care, and I’m here if you want to continue."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "I’m off",
+        "Take care",
+        "Talk soon",
+        "Bye",
+        "Later",
+        "I’ll talk to you later",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye, take care of yourself!",
+        "Take care, and I’m here if you need to talk again. Don’t hesitate to come back.",
+        "See you! If you change your mind and want to chat, I’m here.",
+        "Alright, take care, and the door’s always open if you want to talk!"
+      ]
+    },
+    {
+      "tag": "invalid",
+      "patterns": [
+        "",
+        "xyz",
+        "abc",
+        "123",
+        "asd",
+        "I don’t get it",
+        "What’s that?",
+        "Weird words"
+      ],
+      "responses": [
+        "I’m not quite getting you. Can you explain a bit more?",
+        "Not sure what you mean. Can you try saying it again?",
+        "Oops, that’s not clear. Can you tell me more to help me understand?",
+        "What’s that? 😅 Try explaining it another way."
+      ]
+    },
+    {
+      "tag": "symptom_depression",
+      "patterns": [
+        "I feel deeply sad and have no interest in anything",
+        "I can’t enjoy anything",
+        "I feel like everything is messed up",
+        "I can’t focus or sleep well",
+        "I want to isolate myself from everyone",
+        "I’m not interested in things I used to love",
+        "I feel worthless",
+        "Every day feels worse"
+      ],
+      "responses": [
+        "These symptoms might point to depression. It’s important to take care of yourself and consider professional support. Try exercises like deep breathing, walking, or journaling your feelings.",
+        "I recommend reading *Feeling Good* by David Burns and practicing relaxation techniques like yoga or meditation. If symptoms persist, consider seeing a therapist or psychiatrist.",
+        "Deep sadness can be tough, but small steps can help. Try writing down 3 positive things that happened today, even if they’re small. Want to try it together?",
+        "If you’re feeling isolated, reaching out to one person you care about could help. Want suggestions to get back into a routine?"
+      ]
+    },
+    {
+      "tag": "symptom_anxiety",
+      "patterns": [
+        "Constant anxiety and I can’t calm down",
+        "My heart races and I feel scared for no reason",
+        "I keep worrying about things that might happen",
+        "I feel like I’m going crazy from overthinking",
+        "I can’t control my mind",
+        "I’m scared all the time",
+        "My body shakes from anxiety"
+      ],
+      "responses": [
+        "These symptoms suggest an anxiety disorder. Try using deep breathing apps like *Calm* or *Headspace* to help you relax.",
+        "Reading *The Anxiety and Phobia Workbook* by Edmund Bourne might help. If anxiety is affecting your life, consider consulting a therapist.",
+        "Try meditating for 5 minutes a day or journaling your thoughts to clear your mind. Want me to walk you through a technique?",
+        "Anxiety can ease with simple things like walking or listening to calm music. Need more tips?"
+      ]
+    },
+    {
+      "tag": "symptom_sleepDisorder",
+      "patterns": [
+        "I can’t sleep well at night",
+        "I wake up a lot and can’t go back to sleep",
+        "I feel tired even after sleeping",
+        "I stay up until morning",
+        "I feel like I’m sleeping but not really",
+        "Sleep is so hard for me",
+        "Nightmares keep waking me up"
+      ],
+      "responses": [
+        "You might be dealing with a sleep disorder like insomnia. Consider using a sleep tracker like *Fitbit* or *Oura Ring* to understand your sleep patterns.",
+        "Deep breathing exercises before bed and avoiding screens can help. *Why We Sleep* by Matthew Walker has great insights on improving sleep.",
+        "If the issue persists, consult a sleep specialist or psychiatrist.",
+        "Try listening to nature sounds like rain or waves before bed. Want me to suggest apps for that?"
+      ]
+    },
+    {
+      "tag": "symptom_ptsd",
+      "patterns": [
+        "I keep thinking about a traumatic event",
+        "I wake up terrified",
+        "I feel like something’s wrong even when I’m safe",
+        "Sudden noises scare me",
+        "Memories keep coming back and stressing me out",
+        "I feel like I’m living in the past"
+      ],
+      "responses": [
+        "These symptoms might indicate PTSD. It’s best to consult a mental health professional for an accurate assessment.",
+        "Relaxation and breathing exercises can help temporarily. *The Body Keeps the Score* by Bessel van der Kolk is a great resource for understanding and managing symptoms.",
+        "Therapies like cognitive behavioral therapy (CBT) are very effective for PTSD.",
+        "If memories are overwhelming, try writing about them in a safe space. Want to discuss ways to cope?"
+      ]
+    },
+    {
+      "tag": "symptom_bipolar",
+      "patterns": [
+        "Sometimes I feel super happy, then deeply sad",
+        "My energy levels swing a lot",
+        "I feel like I’m overdoing everything",
+        "I get exhausted suddenly, then full of energy again",
+        "I feel like I want to do everything at once",
+        "My mood changes quickly"
+      ],
+      "responses": [
+        "These symptoms could point to bipolar disorder. It’s really important to get evaluated by a psychiatrist.",
+        "Regular exercise and a consistent sleep routine can help with balance. *Understanding Bipolar Disorder* is a helpful resource.",
+        "A combination of medication and therapy is often the best approach for this condition.",
+        "If your mood is swinging, try tracking it in a daily journal. Want me to explain how?"
+      ]
+    },
+    {
+      "tag": "symptom_socialAnxiety",
+      "patterns": [
+        "I’m scared to talk to new people",
+        "I feel like I’ll fail if I speak in front of others",
+        "I get nervous in social gatherings",
+        "I’m afraid people will judge me",
+        "I feel embarrassed in social situations"
+      ],
+      "responses": [
+        "These symptoms might indicate social anxiety. Try starting with small interactions, like saying hi to someone new, and it’ll get easier over time.",
+        "The book *Overcoming Social Anxiety and Shyness* by Gillian Butler can help you understand this. If it persists, a therapist can make a big difference.",
+        "Breathing exercises and meditation can reduce stress in social settings. Want to try a quick exercise?",
+        "Social anxiety can make you feel like you’re under a spotlight, but people usually aren’t as focused on you as you think. Want to discuss strategies?"
+      ]
+    },
+    {
+      "tag": "symptom_burnout",
+      "patterns": [
+        "I feel exhausted from work",
+        "I can’t keep up with my job",
+        "Everything at work feels overwhelming",
+        "I’m starting to hate my job",
+        "I’m mentally drained from work pressure"
+      ],
+      "responses": [
+        "Burnout can be really tough. Try taking short breaks during the day and setting time aside for rest away from work.",
+        "*The Burnout Solution* by Siobhan Murray offers practical tips for managing burnout. Want suggestions to reduce stress?",
+        "Try prioritizing tasks at work and asking for support if possible. If it continues, consider talking to a therapist.",
+        "Burnout needs balance. Try a hobby you love or a walk in nature. Want more ideas?"
+      ]
+    },
+    {
+      "tag": "mindfulness",
+      "patterns": [
+        "What is meditation?",
+        "How do I practice meditation?",
+        "I need to learn how to focus",
+        "What are mindfulness exercises?",
+        "How can I be present in the moment?"
+      ],
+      "responses": [
+        "Meditation or mindfulness helps you focus on the present and calm your mind. Try meditating for 5 minutes daily with an app like *Calm*.",
+        "*Mindfulness: A Practical Guide* by Mark Williams explains how to start. Want a simple meditation exercise?",
+        "Try this: focus on your breath for a minute, feeling the air go in and out. If your mind wanders, come back to your breath. Want to try it together?",
+        "Mindfulness helps you find inner calm. Try focusing on one thing, like the taste of food or the sound of birds. Need more tips?"
+      ]
+    },
+    {
+      "tag": "recommendations_depression",
+      "patterns": [
+        "Can you recommend devices or exercises for depression?",
+        "What exercises help with depression?",
+        "Can you suggest books about depression?",
+        "How can I improve my mood if I’m depressed?",
+        "Are there things to help me feel better?"
+      ],
+      "responses": [
+        "For depression, try an activity tracker like Fitbit to stay active, and exercises like walking, deep breathing, or yoga.",
+        "Books like *Feeling Good* by David Burns and *The Upward Spiral* by Alex Korb are great reads.",
+        "If you feel you need more support, seeing a therapist or psychiatrist is an important step.",
+        "Try light exercise like a 20-minute walk daily or journaling. Want me to suggest a routine?"
+      ]
+    },
+    {
+      "tag": "recommendations_anxiety",
+      "patterns": [
+        "Can you recommend books about anxiety?",
+        "Give me exercises for anxiety",
+        "Are there devices to help me calm down?",
+        "How can I reduce stress in my life?",
+        "I need tips for anxiety"
+      ],
+      "responses": [
+        "Try the 4-7-8 breathing exercise and meditate with apps like *Calm* or *Headspace*.",
+        "Helpful books: *The Anxiety and Phobia Workbook* by Edmund Bourne and *You Are Not Alone* by Stephen Hayes.",
+        "A device like Muse can help with meditation and focus.",
+        "If anxiety is intense, seeing a therapist might be necessary.",
+        "Try cutting screen time and picking up a hobby like drawing or cooking. Want more ideas?"
+      ]
+    },
+    {
+      "tag": "recommendations_sleepDisorder",
+      "patterns": [
+        "Can you suggest things to help me sleep?",
+        "Give me books or exercises for sleep?",
+        "Are there devices to help with sleep?",
+        "How can I improve my sleep?",
+        "I need solutions for insomnia"
+      ],
+      "responses": [
+        "Deep breathing and stretching exercises can help a lot. Avoid caffeine hours before bed.",
+        "*Why We Sleep* by Matthew Walker has great info on sleep.",
+        "A device like Philips Somneo can improve sleep with guided light and breathing exercises.",
+        "If the problem persists, consulting a sleep specialist is important.",
+        "Try a quiet, dark bedroom and avoid your phone an hour before bed. Need more tips?"
+      ]
+    },
+    {
+      "tag": "mentalHealthEducation",
+      "patterns": [
+        "What is mental health?",
+        "How do I know if I have a mental health issue?",
+        "What’s the difference between depression and normal sadness?",
+        "I need to learn more about mental health",
+        "How do I know if I need help?"
+      ],
+      "responses": [
+        "Mental health is your emotional and psychological state that affects how you think and act. If you feel unable to cope like before, you might need support.",
+        "Depression is deeper than normal sadness, lasts longer, and can affect sleep, appetite, or energy. Want me to explain more?",
+        "If your feelings are impacting work, relationships, or daily life, you might need to talk to a professional. Want me to suggest resources?",
+        "Sites like the World Health Organization offer great mental health info. Want links to resources in English?"
+      ]
+    }
+  ]
+}

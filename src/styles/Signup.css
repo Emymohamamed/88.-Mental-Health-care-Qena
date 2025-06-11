@@ -1,0 +1,536 @@
+.suppage-signup-page {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	background: linear-gradient(135deg, #f4f0fb, #cee4f7 100%);
+	width: 100%;
+	margin: 0;
+}
+
+.suppage-signup-wrapper {
+	margin: 90px 20px;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 0 8px 20px rgba(109, 13, 126, 0.328);
+	max-width: 1300px;
+	width: 100%;
+	min-height: 500px;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+	transition: margin 0.3s ease;
+}
+
+.suppage-row {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.suppage-form-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex: 1 1 40%;
+	padding: 0 40px;
+	z-index: 1;
+}
+
+.suppage-image-container {
+	position: absolute;
+	top: 0;
+	left: -12px;
+	width: 55%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	z-index: 0;
+	transition: width 0.3s ease;
+}
+
+.suppage-signup-container {
+	padding: 60px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 500px;
+}
+
+.suppage-signup-container h3 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 8px;
+	text-align: center;
+	width: 100%;
+}
+
+.suppage-signup-container h5 {
+	font-size: 13px;
+	font-weight: 500;
+	margin-bottom: 12px;
+	text-align: center;
+	color: #666;
+	width: 100%;
+}
+
+.suppage-account-type-section {
+	margin-bottom: 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.suppage-account-type-btn-group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	width: 100%;
+	max-width: 400px;
+}
+
+.suppage-account-type-btn {
+	border: none;
+	color: #666;
+	background-color: #e5e5e5;
+	width: 120px;
+	border-radius: 25px;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+}
+
+.suppage-account-type-btn:hover {
+	color: #333;
+	background-color: #f4f0fb;
+}
+
+.suppage-account-type-btn.suppage-active {
+	background-color: #ffffff;
+	color: #333;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.suppage-account-type-separators {
+	width: 1px;
+	height: 30px;
+	background-color: #d0d0d0;
+}
+
+.suppage-btn-primary {
+	background-color: #5f3366;
+	color: #ffffff;
+	border: none;
+	border-radius: 25px;
+	padding: 12px;
+	font-weight: 600;
+	font-size: 14px;
+	width: 100%;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.suppage-btn-primary:hover {
+	background-color: #5a0f5c;
+	transform: scale(1.02);
+}
+
+.suppage-btn-primary:active {
+	transform: scale(0.98);
+}
+
+.suppage-custom-select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z' fill='%2376137a'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: right 1rem center;
+	background-size: 1rem;
+	padding: 8px 2rem;
+	border: 1px solid #f4f0fb;
+	border-radius: 8px;
+	color: #333;
+	transition: border-color 0.3s ease;
+}
+
+.suppage-custom-select:hover {
+	border-color: #76137a;
+}
+
+.suppage-form-floating {
+	position: relative;
+	margin-bottom: 0.8rem;
+	flex: 1 1 calc(50% - 10px);
+}
+
+.suppage-form-pair {
+	display: flex;
+	gap: 10px;
+	flex: 1 1 100%;
+	margin-bottom: 0.8rem;
+	justify-content: center;
+}
+
+.suppage-form-pair.suppage-side-by-side {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.suppage-form-pair.suppage-full-width {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.suppage-form-pair.suppage-specialization-row {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.suppage-form-pair.suppage-gender-pair {
+	justify-content: center;
+}
+
+.suppage-form-pair .suppage-form-floating,
+.suppage-form-pair .suppage-mb-3 {
+	flex: 1 1 50%;
+}
+
+.suppage-form-control,
+.suppage-form-select {
+	padding: 16px 12px 8px 12px;
+	border: 1px solid #f4f0fb;
+	border-radius: 8px;
+	font-size: 12px;
+	transition: border-color 0.3s ease;
+	height: 50px;
+	width: 100%;
+}
+
+.suppage-large-input {
+	padding: 16px 16px 8px 16px;
+	font-size: 14px;
+	height: 50px;
+}
+
+.suppage-wide-input {
+	width: 100%;
+	max-width: 100%;
+}
+
+.suppage-half-width-input {
+	width: 100%;
+	max-width: 100%;
+}
+
+.suppage-form-control:focus,
+.suppage-form-select:focus {
+	border-color: #76137a;
+	box-shadow: 0 0 5px rgba(118, 19, 122, 0.3);
+	outline: none;
+}
+
+.suppage-form-floating > label {
+	position: absolute;
+	top: 50%;
+	left: 12px;
+	transform: translateY(-50%);
+	font-size: 12px;
+	color: #666;
+	transition: all 0.2s ease;
+	pointer-events: none;
+	background-color: #fff;
+	padding: 0 4px;
+}
+
+.suppage-large-input + label {
+	left: 16px;
+	font-size: 14px;
+}
+
+.suppage-form-control:focus + label,
+.suppage-form-control:not(:placeholder-shown) + label,
+.suppage-form-select:focus + label,
+.suppage-form-select:not([value=""]) + label {
+	top: 0;
+	transform: translateY(-50%);
+	font-size: 10px;
+	color: #76137a;
+}
+
+.suppage-large-input:focus + label,
+.suppage-large-input:not(:placeholder-shown) + label {
+	font-size: 12px;
+}
+
+.suppage-form-check-input {
+	border: 2px solid #76137a;
+}
+
+.suppage-form-check-input:checked {
+	background-color: #76137a;
+	border-color: #76137a;
+}
+
+.suppage-form-check-label {
+	font-size: 12px;
+}
+
+.suppage-form-label {
+	font-size: 14px;
+	margin-bottom: 6px;
+	display: block;
+	text-align: left;
+	width: 100%;
+	padding: 5px 10px;
+	background-color: #f8f8f8;
+	border-radius: 5px;
+}
+
+.suppage-gender-container {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	background-color: #f4f0fb;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
+
+.suppage-gender-label {
+	font-size: 16px;
+	font-weight: 500;
+	color: #76137a;
+	padding: 0;
+	background: none;
+	border-radius: 0;
+	width: auto;
+}
+
+.suppage-gender-options {
+	display: flex;
+	gap: 30px;
+}
+
+.suppage-gender-check {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	background-color: #ffffff;
+	padding: 8px 12px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s ease;
+}
+
+.suppage-gender-check:hover {
+	background-color: #f0f0f0;
+}
+
+.suppage-gender-check .suppage-form-check-input {
+	margin: 0;
+}
+
+.suppage-gender-check .suppage-form-check-label {
+	margin: 0;
+}
+
+.suppage-half-label {
+	max-width: 100%;
+}
+
+.suppage-signup-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 20px 0 0 20px;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+#suppage-commonFields,
+#suppage-therapistFields {
+	padding: 0;
+}
+
+#suppage-commonFields .suppage-mb-3,
+#suppage-therapistFields .suppage-mb-3 {
+	flex: 1 1 100%;
+}
+
+.suppage-text-center {
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.suppage-signup-wrapper {
+	  margin: 20px 10px;
+	  min-height: auto;
+	}
+
+	.suppage-row {
+	  flex-direction: column;
+	  height: auto;
+	}
+
+	.suppage-image-container {
+	  position: relative;
+	  width: 100%;
+	  height: 200px;
+	  left: 0;
+	  top: 0;
+	  z-index: 0;
+	}
+
+	.suppage-form-container {
+	  width: 100%;
+	  flex: 1 1 100%;
+	  justify-content: center;
+	  padding: 0 20px;
+	  order: 2;
+	}
+
+	.suppage-signup-container {
+	  padding: 20px 0;
+	  align-items: center;
+	  width: 100%;
+	  max-width: 100%;
+	}
+
+	.suppage-signup-image {
+	  border-radius: 20px 20px 0 0;
+	  object-fit: cover;
+	}
+
+	.suppage-account-type-section {
+	  margin-bottom: 20px;
+	}
+
+	.suppage-account-type-btn-group {
+	  width: 100%;
+	  gap: 5px;
+	  justify-content: center;
+	}
+
+	.suppage-account-type-btn {
+	  width: 33%;
+	  font-size: 12px;
+	  padding: 8px;
+	}
+
+	.suppage-account-type-separators {
+	  height: 20px;
+	}
+
+	#suppage-commonFields,
+	#suppage-therapistFields {
+	  flex-direction: column;
+	}
+
+	#suppage-therapistFields .suppage-d-flex {
+	  flex-direction: column;
+	}
+
+	.suppage-form-pair {
+	  flex-direction: column;
+	  gap: 0.8rem;
+	  justify-content: center;
+	}
+
+	.suppage-form-pair.suppage-side-by-side {
+	  flex-direction: column;
+	  gap: 0.8rem;
+	}
+
+	.suppage-form-pair.suppage-specialization-row {
+	  flex-direction: column;
+	  gap: 0.8rem;
+	}
+
+	.suppage-form-pair .suppage-form-floating,
+	.suppage-form-pair .suppage-mb-3 {
+	  flex: 1 1 100%;
+	}
+
+	.suppage-large-input {
+	  height: 45px;
+	}
+
+	.suppage-wide-input,
+	.suppage-half-width-input {
+	  max-width: 100%;
+	}
+
+	.suppage-half-label {
+	  max-width: 100%;
+	}
+
+	.suppage-btn-primary {
+	  padding: 10px;
+	  font-size: 13px;
+	}
+
+	.suppage-gender-container {
+	  gap: 15px;
+	  padding: 8px 12px;
+	}
+
+	.suppage-gender-options {
+	  gap: 20px;
+	}
+
+	.suppage-gender-check {
+	  padding: 6px 10px;
+	}
+}
+
+@media (max-width: 480px) {
+	.suppage-signup-container {
+	  padding: 15px 0;
+	}
+
+	.suppage-signup-wrapper {
+	  margin: 10px 5px;
+	}
+
+	.suppage-image-container {
+	  height: 150px;
+	}
+
+	.suppage-account-type-btn {
+	  width: 30%;
+	  font-size: 11px;
+	}
+
+	.suppage-gender-container {
+	  gap: 10px;
+	  padding: 6px 10px;
+	}
+
+	.suppage-gender-options {
+	  gap: 15px;
+	}
+
+	.suppage-gender-check {
+	  padding: 5px 8px;
+	}
+
+	.suppage-form-container {
+	  padding: 0 15px;
+	}
+}

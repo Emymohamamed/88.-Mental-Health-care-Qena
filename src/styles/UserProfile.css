@@ -1,0 +1,57 @@
+:root {
+  --primary-color: #7f5c95;
+  --secondary-color: #d3c8e6;
+  --success-color: #28a745;
+  --bg-light: #b7dff0;
+  --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile-container {
+  background-color: none;
+  font-family: 'Tajawal', sans-serif;
+  padding: 0;
+}
+
+.user-profile-container .card {
+  border-radius: 15px;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.2s;
+  margin-top: 50px;
+}
+
+.user-profile-container .card:hover {
+  transform: translateY(-5px);
+}
+
+.user-profile-container .btn-book {
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, transform 0.2s;
+  background-color: #7f5c95;
+  color: white;
+}
+
+.user-profile-container .btn-book:hover {
+  transform: scale(1.05);
+  background-color: #6b4a84;
+}
+
+.user-profile-container .table th,
+.user-profile-container .table td {
+  vertical-align: middle;
+  text-align: right;
+}
+
+.user-profile-container .table thead th {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 8px 8px 0 0;
+}
+
+.user-profile-container .navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile-container .icon {
+  margin-left: 8px;
+}
